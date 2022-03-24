@@ -18,7 +18,13 @@ public class Cliente {
 
             System.out.println("Digite seu numero:");
             while(teclado.hasNextInt()){
-                saida.println(teclado.nextInt());
+                int out = teclado.nextInt();
+                saida.println(out);
+                if (out == 0){
+                    break;
+                }
+
+
 
             }
 
